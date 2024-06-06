@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="shortcut icon" href="https://umairabbasi.netlify.app/images/laptop.png" type="image/x-icon">
+
+
+</head>
+
+<body>
+
+  <nav
+    class="flex justify-between items-center shadow-xl bg-slate-900 lg:py-0 py-2 text-white lg:px-[6%] px-[8px] flex-wrap  fixed top-0 left-0 z-10 w-full">
+    <img src="./img/umair.png" alt="" class="lg:w-40 w-20 ">
+    <div class="flex items-center gap-[8px] lg:gap-2 cursor-pointer relative" id="dropDown">
+
+      <div class="w-36    left-4 top-10 absolute bg-white p-2 hidden text-black shadow-lg" id="box">
+        <div class="flex items-center gap-2 hover:bg-[#0D6DB7] hover:text-white">
+          <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024" height="26" width="26"
+            xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M888 792H200V168c0-4.4-3.6-8-8-8h-56c-4.4 0-8 3.6-8 8v688c0 4.4 3.6 8 8 8h752c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8zm-600-80h56c4.4 0 8-3.6 8-8V560c0-4.4-3.6-8-8-8h-56c-4.4 0-8 3.6-8 8v144c0 4.4 3.6 8 8 8zm152 0h56c4.4 0 8-3.6 8-8V384c0-4.4-3.6-8-8-8h-56c-4.4 0-8 3.6-8 8v320c0 4.4 3.6 8 8 8zm152 0h56c4.4 0 8-3.6 8-8V462c0-4.4-3.6-8-8-8h-56c-4.4 0-8 3.6-8 8v242c0 4.4 3.6 8 8 8zm152 0h56c4.4 0 8-3.6 8-8V304c0-4.4-3.6-8-8-8h-56c-4.4 0-8 3.6-8 8v400c0 4.4 3.6 8 8 8z">
+            </path>
+
+          </svg>
+          <p>result</p>
+        </div>
+        <div class="flex items-center gap-2 hover:bg-[#0D6DB7] hover:text-white my-2">
+          <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024" height="26" width="26"
+            xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M868 732h-70.3c-4.8 0-9.3 2.1-12.3 5.8-7 8.5-14.5 16.7-22.4 24.5a353.84 353.84 0 0 1-112.7 75.9A352.8 352.8 0 0 1 512.4 866c-47.9 0-94.3-9.4-137.9-27.8a353.84 353.84 0 0 1-112.7-75.9 353.28 353.28 0 0 1-76-112.5C167.3 606.2 158 559.9 158 512s9.4-94.2 27.8-137.8c17.8-42.1 43.4-80 76-112.5s70.5-58.1 112.7-75.9c43.6-18.4 90-27.8 137.9-27.8 47.9 0 94.3 9.3 137.9 27.8 42.2 17.8 80.1 43.4 112.7 75.9 7.9 7.9 15.3 16.1 22.4 24.5 3 3.7 7.6 5.8 12.3 5.8H868c6.3 0 10.2-7 6.7-12.3C798 160.5 663.8 81.6 511.3 82 271.7 82.6 79.6 277.1 82 516.4 84.4 751.9 276.2 942 512.4 942c152.1 0 285.7-78.8 362.3-197.7 3.4-5.3-.4-12.3-6.7-12.3zm88.9-226.3L815 393.7c-5.3-4.2-13-.4-13 6.3v76H488c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h314v76c0 6.7 7.8 10.5 13 6.3l141.9-112a8 8 0 0 0 0-12.6z">
+            </path>
+          </svg>
+          <a href="./index.html">Logout</a>
+        </div>
+      </div>
+      <img src="./img/pic.jpg" alt="" class="w-8 rounded-full" id="profile">
+
+      <p id="userName">Muhammad Umair </p>
+      <span><img src="./img/drop-down.png" alt="" class="lg:w-6 w-4 cursor-pointer"></span>
+    </div>
+    </h2>
+  </nav>
+
+  <section class="px-[6%] mt-20">
+    <p class="text-[#0D6DB7] lg:text-4xl text-3xl py-4">Hi, <span id="message"> Muhammad Umair Abbasi </span>  👋</p>
+    <h1 class="text-[#0D6DB7]  text-3xl  py-2 pb-5 border-[#DFDFDF]  border-b-2 ">Welcome to the <span
+        class="text-[#FF004E] font-bold">Umair</span> Abbasi's quiz portal. Select your course below to take a quiz.
+    </h1>
+  </section>
+
+  <section>
+
+    <div class="cards-main flex px-[6%] flex-wrap justify-between py-5  gap-y-8">
+
+
+      <div class="card  border w-fit px-10 py-8 p-4 border-[#DFDFDF] ">
+        <h3 class="font-bold text-lg">Python</h3>
+
+        <p class="text-[#6c757D]">1 Subjects
+          <button class="">Join</button>
+        </p>
+        <button class=" border border-[#DFDFDF] px-28 p-2 my-4">Join</button>
+
+      </div>
+      <div class="card  border w-fit px-10 py-8 p-4 border-[#DFDFDF] ">
+        <h3 class="font-bold text-lg">Python</h3>
+
+        <p class="text-[#6c757D]">1 Subjects
+          <button class="">Join</button>
+        </p>
+        <button class=" border border-[#DFDFDF] px-28 p-2 my-4">Join</button>
+
+      </div>
+      <div class="card  border w-fit px-10 py-8 p-4 border-[#DFDFDF] ">
+        <h3 class="font-bold text-lg">Python</h3>
+
+        <p class="text-[#6c757D]">1 Subjects
+          <button class="">Join</button>
+        </p>
+        <button class=" border border-[#DFDFDF] px-28 p-2 my-4">Join</button>
+
+      </div>
+
+      <div class="card  border w-fit px-10 py-8 p-4 border-[#DFDFDF] ">
+        <h3 class="font-bold text-lg">Python</h3>
+
+        <p class="text-[#6c757D]">1 Subjects
+          <button class="">Join</button>
+        </p>
+        <button class=" border border-[#DFDFDF] px-28 p-2 my-4">Join</button>
+
+      </div>
+
+
+      <div class="card  border w-fit px-10 py-8 p-4 border-[#DFDFDF] ">
+        <h3 class="font-bold text-lg">Python</h3>
+
+        <p class="text-[#6c757D]">1 Subjects
+          <button class="">Join</button>
+        </p>
+        <button class=" border border-[#DFDFDF] px-28 p-2 my-4">Join</button>
+
+      </div>
+      <div class="card  border w-fit px-10 py-8 p-4 border-[#DFDFDF] ">
+        <h3 class="font-bold text-lg">Python</h3>
+
+        <p class="text-[#6c757D]">1 Subjects
+          <button class="">Join</button>
+        </p>
+        <button class=" border border-[#DFDFDF] px-28 p-2 my-4">Join</button>
+
+      </div>
+      <div class="card  border w-fit px-10 py-8 p-4 border-[#DFDFDF] ">
+        <h3 class="font-bold text-lg">Python</h3>
+
+        <p class="text-[#6c757D]">1 Subjects
+          <button class="">Join</button>
+        </p>
+        <button class=" border border-[#DFDFDF] px-28 p-2 my-4">Join</button>
+
+      </div>
+      <div class="card  border w-fit px-10 py-8 p-4 border-[#DFDFDF] ">
+        <h3 class="font-bold text-lg">Python</h3>
+
+        <p class="text-[#6c757D]">1 Subjects
+          <button class="">Join</button>
+        </p>
+        <button class=" border border-[#DFDFDF] px-28 p-2 my-4">Join</button>
+
+      </div>
+      <div class="card  border w-fit px-10 py-8 p-4 border-[#DFDFDF] ">
+        <h3 class="font-bold text-lg">Python</h3>
+
+        <p class="text-[#6c757D]">1 Subjects
+          <button class="">Join</button>
+        </p>
+        <button class=" border border-[#DFDFDF] px-28 p-2 my-4">Join</button>
+
+      </div>
+
+
+
+    </div>
+  </section>
+  <script src="home.js"></script>
+</body>
+
+</html>

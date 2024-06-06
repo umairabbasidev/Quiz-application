@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <script src="https://cdn.tailwindcss.com"></script>
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+  integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+  crossorigin="anonymous" referrerpolicy="no-referrer" />
+ <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+
+ <title>Login </title>
+</head>
+
+<body
+ style="background-image: url('./img/bg.jpg'); background-position: center; background-size: contain; background-size: cover"
+ class="font-[poppins]">
+
+
+ <div class="signup-form relative">
+
+  <div class="user w-14 p-2 rounded-[50%]  px-3 bg-purple-800 absolute lg:left-[48%] left-[41%]  -top-7 ">
+
+   <i class="fa-solid fa-user text-4xl text-white"></i>
+  </div>
+
+  <div class="content max-w-[300px] flex flex-col  bg-white shadow-xl my-10 m-auto py-4 px-4">
+
+   <h2 class="text-3xl text-blue-800 font-bold text-center py-4">Login</h2>
+
+   <input type="text" placeholder="Enter Name"
+    class="w-full bg-transparent border border-blue-800 px-6 rounded-full my-2 p-1 outline-none" required id="name">
+
+   <input type="password" name="" placeholder="Enter Passowrd"
+    class="w-full bg-transparent border border-blue-800 px-6 rounded-full my-2 p-1 outline-none" required id="password">
+
+
+   <button class="rounded-full bg-blue-700 p-2 hover:bg-blue-600 text-white my-2" id="loginBtn">Login</button>
+
+
+
+
+  </div>
+
+ </div>
+
+ <script src="login.js"></script>
+</body>
+
+</html>
