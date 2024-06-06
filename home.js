@@ -21,6 +21,7 @@ dropDown.addEventListener("click", () => {
     flag = !flag;
   }
 });
+// console.log(profile.src)
 profile.src = parsData.profile;
 userName.innerHTML = parsData.name;
 message.innerHTML = parsData.name;
